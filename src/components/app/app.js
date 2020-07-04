@@ -26,9 +26,8 @@ class App extends React.Component {
 
         <main>
 
-          <Route path="/" exact>
-            <Homepage />
-          </Route>
+          <Route path="/" exact component={Homepage} />
+
 
           <Route path="/history" exact>
             <h2>This is the history page</h2>

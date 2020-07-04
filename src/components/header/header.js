@@ -1,40 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {NavLink} from 'react-router-dom';
 import './header.scss';
 
-class Header extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      homepage:true,
-      history:false,
-    }
-  }
+const Header = () => {
 
-  toggleHomepage = () => {
-    this.setState({homepage:true,history:false});
-  }
+  let [home, setHome] = useState(true);
+  let [history, setHistory] = useState(false);
+  const toggleHomepage = () => {
+    setHome(home = true);
+    setHistory(history = false);
+  };
 
-  toggleHistory = () => {
-    this.setState({homepage:false,history:true});
-  }
+  const toggleHistory = () => {
+    setHome(home = false);
+    setHistory(history = true);
+  };
 
-  render(){
-    return(
-      <header>
-        <h1>Resty App!</h1>
-        <ul>
-          <li>
-            <NavLink to="/" onClick={this.toggleHomepage} className={'toggle'+this.state.homepage}>Homepage</NavLink>
-          </li>
-          <li>
-            <NavLink to="/history" onClick={this.toggleHistory} className={'toggle'+this.state.history}>History</NavLink>
-          </li>
-        </ul>
+  return(
+    <header>
+      <h1>Resty App!</h1>
+      <ul>
+        <li>
+          <NavLink to="/" onClick={toggleHomepage} className={'toggle'+home}>Homepage</NavLink>
+        </li>
+        <li>
+          <NavLink to="/history" onClick={toggleHistory} className={'toggle'+history}>History</NavLink>
+        </li>
+      </ul>
       
-      </header>
-    );
-  }
+    </header>
+  );
 };
 
 export default Header;
