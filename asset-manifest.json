@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/nice-react/static/css/main.f4655060.chunk.css",
-    "main.js": "/nice-react/static/js/main.a81c80b2.chunk.js",
-    "main.js.map": "/nice-react/static/js/main.a81c80b2.chunk.js.map",
+    "main.js": "/nice-react/static/js/main.fe1289d5.chunk.js",
+    "main.js.map": "/nice-react/static/js/main.fe1289d5.chunk.js.map",
     "runtime-main.js": "/nice-react/static/js/runtime-main.3fcc06e9.js",
     "runtime-main.js.map": "/nice-react/static/js/runtime-main.3fcc06e9.js.map",
     "static/js/2.50303651.chunk.js": "/nice-react/static/js/2.50303651.chunk.js",
     "static/js/2.50303651.chunk.js.map": "/nice-react/static/js/2.50303651.chunk.js.map",
     "index.html": "/nice-react/index.html",
-    "precache-manifest.d2248ba807f5b7b50c7601ea18012751.js": "/nice-react/precache-manifest.d2248ba807f5b7b50c7601ea18012751.js",
+    "precache-manifest.15045c550373f6f4088b4b3b4e73de1f.js": "/nice-react/precache-manifest.15045c550373f6f4088b4b3b4e73de1f.js",
     "service-worker.js": "/nice-react/service-worker.js",
     "static/css/main.f4655060.chunk.css.map": "/nice-react/static/css/main.f4655060.chunk.css.map",
     "static/js/2.50303651.chunk.js.LICENSE.txt": "/nice-react/static/js/2.50303651.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3fcc06e9.js",
     "static/js/2.50303651.chunk.js",
     "static/css/main.f4655060.chunk.css",
-    "static/js/main.a81c80b2.chunk.js"
+    "static/js/main.fe1289d5.chunk.js"
   ]
 }
