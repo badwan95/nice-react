@@ -26,10 +26,10 @@ class App extends React.Component {
 
         <main>
 
-          <Route path="/" exact component={Homepage} />
+          <Route path="/nice-react/" exact component={Homepage} />
 
 
-          <Route path="/history" exact>
+          <Route path="/nice-react/history" exact>
             <h2>This is the history page</h2>
           </Route>
 

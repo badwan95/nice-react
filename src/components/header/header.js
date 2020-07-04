@@ -21,10 +21,10 @@ const Header = () => {
       <h1>Resty App!</h1>
       <ul>
         <li>
-          <NavLink to="/" onClick={toggleHomepage} className={'toggle'+home}>Homepage</NavLink>
+          <NavLink to="/nice-react/" onClick={toggleHomepage} className={'toggle'+home}>Homepage</NavLink>
         </li>
         <li>
-          <NavLink to="/history" onClick={toggleHistory} className={'toggle'+history}>History</NavLink>
+          <NavLink to="/nice-react/history" onClick={toggleHistory} className={'toggle'+history}>History</NavLink>
         </li>
       </ul>
       
